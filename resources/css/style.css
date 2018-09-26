@@ -1,4 +1,54 @@
+body {
+    background-color: lavender;
+    color: teal;
+    display: flex;
+}
+
+div#left {
+    width: 50%;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', serif;
+    font-size: 60px;
+    margin: 60px 0 30px 30px;
+    vertical-align: middle;
+}
+
 img {
-    width: 70px;
+    align-self: flex-start;
+    width: 150px;
     height: auto;
+    border: 2px solid teal;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 25px;
+    width: 450px;
+    margin-left: 30px;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+}
+
+div#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', serif;
+    font-size: 50px;
+    margin: 100px 0 30px 0;
+    color: blue;
 }
