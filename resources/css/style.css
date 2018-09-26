@@ -22,7 +22,7 @@ h1 {
     vertical-align: middle;
 }
 
-img {
+header img {
     align-self: flex-start;
     width: 150px;
     height: auto;
@@ -31,7 +31,7 @@ img {
     border-radius: 10px;
 }
 
-p {
+div#left p {
     font-size: 25px;
     width: 450px;
     margin-left: 30px;
@@ -44,11 +44,32 @@ div#right {
     flex-direction: column;
     align-items: center;
     width: 50%;
+    color: blue;
 }
 
 h2 {
     font-family: 'Fredericka the Great', serif;
     font-size: 50px;
     margin: 100px 0 30px 0;
-    color: blue;
+}
+
+div#right div {
+    margin-top: 20px;
+}
+
+div#right p {
+    font-size: 20px;
+    font-family: Verdana;
+    line-height: 1.2;
+}
+
+i {
+    font-style: italic;
+}
+
+div#right img {
+    width: 300px;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
