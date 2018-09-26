@@ -64,8 +64,9 @@ div#right p {
     line-height: 1.2;
 }
 
-i {
-    font-style: italic;
+a {
+    color: teal;
+    font-weight: bold;
 }
 
 div#right img {
