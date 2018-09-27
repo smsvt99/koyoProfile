@@ -17,7 +17,7 @@ header {
 h1 {
     font-family: 'Fredericka the Great', serif;
     font-size: 60px;
-    margin: 60px 0 30px 30px;
+    margin: 60px 0 0 30px;
     vertical-align: middle;
 }
 
@@ -50,6 +50,20 @@ div#left div p {
 
 div#left div p a {
     font-weight: normal;
+}
+
+#projects-link {
+    display: none;
+    margin-bottom: 45px;
+}
+
+#projects-link a {
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 div#right {
@@ -98,4 +112,21 @@ div#right img {
 i.fab,
 i.fas {
     margin-right: 10px;
+}
+
+@media only screen and (max-width: 920px) {
+    body {
+        flex-direction: column;
+    }
+    #projects-link {
+        display: block;
+    }
+    div#left,
+    div#right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    
 }
