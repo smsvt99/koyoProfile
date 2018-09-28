@@ -190,3 +190,12 @@ i.fas {
         max-width: 80%;
     }
 }
+
+@media only screen and (max-width: 468px) {
+    #left-container {
+        padding-left: 15px;
+    }
+    #contact i {
+        display: none;
+    }
+}
