@@ -109,6 +109,10 @@ h3 {
     color: blue;
 }
 
+.description span {
+    font-size: 22px;
+}
+
 .description span a {
     color: darkcyan;
 }
@@ -204,6 +208,9 @@ i.fas {
     }
     .description p {
         font-size: 22px;
+    }
+    .description span {
+        font-size: 19px;
     }
     #about {
         padding: 10px;
