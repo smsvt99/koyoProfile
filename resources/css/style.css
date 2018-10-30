@@ -192,7 +192,7 @@ i.fas {
 }
 
 @media only screen and (max-width: 541px) {
-    body, nav span a, h3, description span a, #contact p a {
+    body, nav span a, h3, .description span a, #contact p a {
         color: #008b8b;
     }
     header, #name img, #about, #contact p a {
